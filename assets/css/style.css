@@ -148,17 +148,20 @@ h3, h2 {
   /* MEDIA QUERIES*/
 
   @media only screen and (max-width: 980px) {
-
+    .container {
+      width: 980px;
+    }
   }
   @media only screen and (max-width: 768px) {
-
+    .container {
+      width: 768px;
+    }
   }
   @media only screen and (max-width: 640px) {
-    
-    .topnav-right{
-      float: left;
-    }
-    .wrapper {
-      width: 640px;
+      .nav {
+        float: left;
+      }    
+      .container {
+        width: 640px;
     }
   }
